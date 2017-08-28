@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Appointmentmodule:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Appointmentmodule-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Appointmentmodule:war exploded" />
+    </root>
+  </artifact>
+</component>
