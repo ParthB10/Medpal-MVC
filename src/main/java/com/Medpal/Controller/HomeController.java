@@ -10,18 +10,18 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HomeController {
 
     @RequestMapping(value = "/")
-    public String home(){
+    public String jack(){
 
-        return "index";
+        return "views/index";
     }
     @RequestMapping(value="/index",method = RequestMethod.POST)
     public String main(@Validated User user, Model model){
-        model.addAttribute("userName",user.getUserName());
-        return "welcome";
+        model.addAttribute("userName", user.getUserName());
+        return "views/welcome";
     }
     @RequestMapping(value = "/login", method=RequestMethod.POST)
     public String back(){
-        return "index";
+        return "views/index";
     }
 
 }
