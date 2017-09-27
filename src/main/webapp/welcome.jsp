@@ -13,6 +13,7 @@
 <body>
 <h1>
     Hi, ${userName} Welcome to Medpal Application.
+    <br> Password = ${password}
 </h1>
 <form action="/login" method="post">
     <input type="submit" value="Logout">

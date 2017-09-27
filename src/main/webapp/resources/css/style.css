@@ -1,0 +1,4319 @@
+/*AssignTicket.aspx */
+#iframe{
+    overflow:hidden;
+    width:100%;
+    height:150px;
+    border:none;
+}
+#body{
+    background-color:#f8f8f8;
+    display:block;
+    width:100%;
+    color:#333;
+}
+#strong{
+    font-family:Cambria;
+    font-size:20px;
+}
+.tdali{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:30px;
+    width:300px;
+}
+.tdbtnali{
+    width:150px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    height:30px;
+    font-size:22px;
+    font-family:Cambria;
+
+
+}
+#Footer{
+    margin-top:40.8%;
+    color:antiquewhite;
+    height:46px;
+    width:100%;
+    vertical-align:bottom;
+    background-repeat:repeat-x;
+    background:#999;
+}
+#footerleft{
+    padding-left:20px;
+    padding-top:10px;
+    float:left;
+}
+
+/*ChangePassword.aspx*/
+
+#head{
+    padding:15px;
+    text-align:center;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.cpinfo{
+    font-family:'Franklin Gothic';
+    color:ghostwhite;
+    font-size:25px;
+    width:700px;
+    height:360px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#2c3e50;
+}
+.cpbutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:150px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.cpbutton:hover,
+.cpbutton:active,
+.cpbutton:focus{
+    color:rgb(12, 97, 33);
+}
+cpinfot{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+}
+/*Company -com*/
+#bodyc{
+    height: 100%;
+    background-color:#f8f8f8;
+}
+.comhead{
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.cominfo{
+    background:#2c3e50;
+    padding: 10px;
+    width: 1250px;
+    height:800px;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.combutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:100px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.combutton:hover,
+.combutton:active,
+.combutton:focus{
+    color:rgb(12, 97, 33);
+}
+.comtxt{
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.comtxt1{
+    margin-left:280px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.comlbl1{
+    margin-left:40px;
+    margin-right:50px;
+}
+.comlbl2{
+    margin-left:40px;
+    margin-right:80px;
+}
+.comlbl3{
+    margin-left:40px;
+    margin-right:193px;
+}
+.comlbl4{
+    margin-left:40px;
+    margin-right:140px;
+}
+.comlbl5{
+    margin-left:40px;
+    margin-right:35px;
+}
+.comlbl6{
+    margin-left:40px;
+    margin-right:140px;
+}
+.comlbl21{
+    margin-left:140px;
+    margin-right:130px;
+}
+.comlbl22{
+    margin-left:140px;
+    margin-right:47px;
+}
+.comlbl23{
+    margin-left:140px;
+
+}
+.comlbl24{
+    margin-left:140px;
+    margin-right:105px;
+}
+.comsession {
+    float: right;
+    color:#2c3e50;
+    font-size: 35px;
+    font-family: Calibri;
+    padding-right: 5%;
+}
+/* Dashboard.aspx da*/
+dabody{
+    background-color:#eee;
+    display:block;
+    width:100%;
+    color:#333;
+}
+#dadb2{
+    font-family:Cambria;
+    font-size:16px;
+    float:left;
+    margin-top:1%;
+    width:100%;
+    background-color:transparent;
+    /*float:right;*/
+    height:900px;
+    margin-left:320px;
+    display:block;
+    margin-right:2%;
+    position:absolute;
+}
+
+.dahead_panel{
+    /*background-color:#284775;*/
+    width:500px;
+    height:400px;
+    color:ghostwhite;
+    display:inline-block;
+    text-align:center;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.dacomp{
+    float:right;
+    margin-right:2%;
+}
+#dahead {
+    height: 70px;
+    width: 150%;
+    background: linear-gradient(#686868,#f0f0f0);
+    border: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family: Cambria;
+    font-size: 26px;
+    font-style: oblique;
+    float: left;
+    margin-left: 1px;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.daimg{
+    float:right;
+    margin-right:5%;
+    margin-top:2px;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+}
+#dadbgrid{
+    line-height:25px;
+    font-size:15px;
+}
+#dadb1{
+
+    background-color:#ee8617;
+    width:300px;
+    height:1050px;
+    float:left;
+    display:block;
+    /*overflow:hidden;*/
+}
+.dalab{
+    font-family:Verdana;
+    font-size:20pt;
+    float:left;
+    color:black;
+    padding-left:100px;
+}
+.datb{
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    width:15%;
+    box-shadow:10px 10px Black;
+    float:right;
+    margin-right:6%;
+    margin-top:2%;
+    cursor:pointer;
+}
+.datb2{
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    width:15%;
+    box-shadow:10px 10px Black;
+    float:right;
+    margin-right:6%;
+    margin-top:7%;
+    cursor:pointer;
+}
+
+.damodalBackground
+{
+    background-color: Black;
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+}
+.damodalPopup
+{
+    background-color: #2FBDF1;
+    width: 300px;
+    border: 3px solid #0DA9D0;
+}
+.damodalPopup .daheader
+{
+    background-color: #2FBDF1;
+    height: 30px;
+    color: White;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.damodalPopup .dabody
+{
+    min-height: 50px;
+    line-height: 30px;
+    text-align: center;
+    padding:5px
+}
+.damodalPopup .dafooter
+{
+    padding: 3px;
+}
+.damodalPopup .dabutton
+{
+    height: 23px;
+    color: White;
+    line-height: 23px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #9F9F9F;
+    border: 1px solid #5C5C5C;
+}
+.damodalPopup td
+{
+    text-align:left;
+}
+.daCimg {
+    float: right;
+    margin-right: 3%;
+    margin-top: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    height: 75%;
+}
+.dapie {
+    position: relative;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    background: yellowgreen;
+    background-image:linear-gradient(to right, transparent 50%, #655 0);
+    color: transparent;
+    text-align: center;
+}
+.damain{
+    margin-left:10px;
+}
+.dasession {
+    float: right;
+    color: black;
+    font-size: 35px;
+    font-family: Calibri;
+    padding-right: 105px;
+}
+
+
+/*<link rel="modalpopup" type="text/css" href="modalpopup.css" />*/
+                                                                  /*DepartmentGrid.aspx deg*/
+                                                              degbody{
+                                                                  height: 100%;
+                                                                  /*background-repeat: no-repeat;
+             background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+                                                                  /*background-color:rgb(12, 97, 33);*/
+                                                                  background:#f8f8f8;
+                                                              }
+.deghead{
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.deginfo{
+    background:#2c3e50;
+    padding: 10px;
+    width: 75%;
+    height:60%;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.degbutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:3%;
+    /*margin-right:100px;*/
+    /*margin-right:50px;*/
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.degbutton:hover,
+.degbutton:active,
+.degbutton:focus{
+    color:rgb(12, 97, 33);
+}
+.deglblmain{
+    margin-left:2%;
+    margin-right:2%;
+}
+.degtxt
+{
+
+    width:30%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    border-bottom-left-radius:2px;border-bottom-right-radius:2px;border-top-left-radius:2px; border-top-right-radius:2px;
+}
+.deginfot{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+}
+.deglbl1    {
+    width:200px;
+    margin-left:80px;
+    margin-right:90px;
+}
+
+.deglbl2   {
+    width:200px;
+    margin-left:80px;
+    margin-right:50px;
+}
+.deglbl3    {
+    width:200px;
+    margin-left:80px;
+    margin-right:65px;
+}
+.degbuttonp{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:150px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.degmodalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    z-index: 10000;
+}
+.deginfop{
+    background:#2c3e50;
+    padding: 10px;
+    width: 40%;
+    height:370px;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+
+
+/*DepartmentGrid.aspx dg*/
+
+.dginfo{
+    background:#2c3e50;
+    padding: 10px;
+    width: 75%;
+    height:60%;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.dgbutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:3%;
+    /*margin-right:100px;*/
+    /*margin-right:50px;*/
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.dgbutton:hover,
+.dgbutton:active,
+.dgbutton:focus{
+    color:rgb(12, 97, 33);
+}
+.dglblmain{
+    margin-left:2%;
+    margin-right:2%;
+}
+.dgtxt
+{
+
+    width:30%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    border-bottom-left-radius:2px;border-bottom-right-radius:2px;border-top-left-radius:2px; border-top-right-radius:2px;
+}
+.dginfot{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+}
+.dglbl1    {
+    width:200px;
+    margin-left:80px;
+    margin-right:90px;
+}
+
+.dglbl2   {
+    width:200px;
+    margin-left:80px;
+    margin-right:50px;
+}
+.dglbl3    {
+    width:200px;
+    margin-left:80px;
+    margin-right:65px;
+}
+.dgbuttonp{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:150px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.dgmodalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    z-index: 10000;
+}
+.dginfop{
+    background:#2c3e50;
+    padding: 10px;
+    width: 40%;
+    height:370px;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+/*DepartmentMaster.aspx dem*/
+
+.deminfo{
+    background:#2c3e50;
+    padding: 10px;
+    width: 800px;
+    height:360px;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.deminfoc{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+    margin-left:300px;
+}
+.dembutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:100px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.dembutton:hover,
+.dembutton:active,
+.dembutton:focus{
+    color:rgb(12, 97, 33);
+}
+.deminfot{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+}
+.demlbl1    {
+    width:200px;
+    margin-left:80px;
+    margin-right:90px;
+}
+.demlbl2   {
+    width:200px;
+    margin-left:80px;
+    margin-right:50px;
+}
+.demlbl3    {
+    width:200px;
+    margin-left:80px;
+    margin-right:65px;
+}
+.demsession{
+
+    float:right;
+    color:#2c3e50;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:5%;
+    color:#2c3e50;
+}
+/*DepartmentUpdate.aspx deu*/
+.deuinfo{
+    font-family:'Franklin Gothic';
+    color:ghostwhite;
+    font-size:25px;
+    width:700px;
+    height:560px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#2c3e50;
+    box-shadow: 10px 10px black;
+}
+.deuButton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:150px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+
+}
+.deuButton:hover,
+.deuButton:active,
+.deuButton:focus{
+    color:rgb(12, 97, 33);
+}
+.deuinfot{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+}
+.deuinfoc{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+    margin-left:250px;
+}
+.deulbl1{
+    width:200px;
+    margin-left:50px;
+    margin-right:110px;
+}
+.deulbl2{
+    width:200px;
+    margin-left:50px;
+    margin-right:10px;
+}
+.deulbl3{
+    width:200px;
+    margin-left:50px;
+    margin-right:78px;
+}
+.deuinfot1{
+    margin-left:365px;
+}
+.deulbl4{
+    width:200px;
+    margin-left:50px;
+    margin-right:66px;
+}
+.deulbl5{
+    width:200px;
+    margin-left:50px;
+    margin-right:95px;
+}
+.deusession{
+    float:right;
+    color:#2c3e50;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:5%;
+}
+/*DesignationGrid.aspx desg*/
+.desginfo{
+    background:#2c3e50;
+    padding: 10px;
+    width: 75%;
+    height:60%;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.desgbutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:3%;
+    /*margin-right:100px;*/
+    /*margin-right:50px;*/
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.desgbutton:hover,
+.desgbutton:active,
+.desgbutton:focus{
+    color:rgb(12, 97, 33);
+}
+.desglblmain{
+    margin-left:2%;
+    margin-right:2%;
+}
+.desgtxt
+{
+
+    width:30%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    border-bottom-left-radius:2px;border-bottom-right-radius:2px;border-top-left-radius:2px; border-top-right-radius:2px;
+}
+.desgButton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:80px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    /*width:123px;*/
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+
+}
+.desginfop{
+    margin-left:auto;
+    margin-right:auto;
+    font-size:25px;
+    width:550px;
+    height:200px;
+    font-family:'Franklin Gothic';
+    background-color:#2c3e50;
+    box-shadow:10px 10px black;
+    color:ghostwhite;
+}
+.desglbl1{
+    margin-left:50px;
+    margin-right:50px;
+}
+.desgmodalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    z-index: 10000;
+}
+/*DesignationMaster.aspx desm*/
+#desmback{
+    margin-bottom:90px;
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.desminfo{
+    margin-left:auto;
+    margin-right:auto;
+    font-size:25px;
+    width:550px;
+    height:200px;
+    font-family:'Franklin Gothic';
+    background-color:#2c3e50;
+    box-shadow:10px 10px black;
+    color:ghostwhite;
+}
+.desmuinfo{
+    font-family:sans-serif;
+    font-size:18px;
+    width:287px;
+    color:white;
+}
+.desmButton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:80px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    /*width:123px;*/
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+
+}
+.desmButton:hover,
+.desmButton:active,
+.desmButton:focus{
+    color:rgb(12, 97, 33);
+}
+.desmlbl1{
+    margin-left:50px;
+    margin-right:50px;
+}
+.desmsession{
+    float:right;
+    color:#2c3e50;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:5%;
+}
+
+/*DesignationMasterUpdate.aspx desmu*/
+#desmuback{
+
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.desmuinfo{
+    margin-left:auto;
+    margin-right:auto;
+    font-size:25px;
+    width:700px;
+    height:270px;
+    font-family:'Franklin Gothic';
+    background-color:#2c3e50;
+    box-shadow:10px 10px black;
+    color:ghostwhite;
+}
+
+.desmuButton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:150px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+
+}
+.desmuButton:hover,
+.desmuButton:active,
+.desmuButton:focus{
+    color:rgb(12, 97, 33);
+}
+.desmuinfot{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+}
+.desmuinfoc{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+    margin-left:250px;
+}
+.desmulbl{
+    margin-left:80px;
+    margin-right:150px;
+}
+.desmulbl1{
+    margin-left:80px;
+    margin-right:50px;
+}
+.desmusession{
+    float:right;
+    color:#2c3e50;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:5%;
+}
+/*DispatherAssignTicket.aspx disat*/
+#disathead {
+    height: 76px;
+    width: 100%;
+    background: linear-gradient(#686868,#f0f0f0);
+    border: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family: Calibri;
+    font-size: 38px;
+    font-style: oblique;
+    float: left;
+    margin-left: 1px;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.disatcomp{
+    float:right;
+    margin-right:2%;
+}
+.disattdbtnali{
+    /*width:150px;*/
+    width:270px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    height:30px;
+    font-size:22px;
+    font-family:Cambria;
+    margin-right:20px;
+    cursor:pointer;
+
+}
+.disattdbtnali1{
+    width:150px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    height:30px;
+    font-size:22px;
+    font-family:Cambria;
+    margin-right:20px;
+    cursor:pointer;
+
+}
+
+.disattdali{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:30px;
+    width:300px;
+}
+.disattdali1{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:22px;
+    width:300px;
+    margin-left:30px;
+    height:36px;
+}
+#disatFooter{
+    margin-top:40.8%;
+    color:antiquewhite;
+    height:46px;
+    width:100%;
+    vertical-align:bottom;
+    background-repeat:repeat-x;
+    background:#999;
+}
+#disatfooterleft{
+    padding-left:20px;
+    padding-top:10px;
+    float:left;
+}
+#disattckbtn{
+    margin-left:20px;
+}
+.disatlblMain{
+    font-size:36px;
+    color:#ee8617;
+
+}
+.disatsession{
+    float:right;
+    color:black;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:105px;
+}
+.disatCimg {
+    float: right;
+    margin-right: 3%;
+    margin-top: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    height: 75%;
+}
+.disatgridcss
+{
+    background:#df5015;
+    font-weight:bold;
+    color:White;
+}
+.disatcolumnwidth
+{
+    width: auto;
+}
+/*DispatherAssignTicketUpdate.aspx deisatu*/
+#deisatuhead{
+    font-family:Cambria;
+    font-size:29px;
+    height:70px;
+    width:100%;
+    background:linear-gradient(#686868,#f0f0f0);
+    border:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    font-family:Cambria;
+    font-size:26px;
+    font-style:oblique;
+    float:left;
+    margin-left:1px;
+    width:100%;
+}
+.deisatucomp{
+    float:right;
+    margin-right:2%;
+}
+#deisatutahead{
+    font-family:Cambria;
+    margin-top:2%;
+    font-size:16px;
+    float:left;
+    margin-left:245px;
+    width:1430px;
+    background-color:#eee;
+    /*background-color:rgba(247, 236, 7, 0.1);*/
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-left:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    border-right:2px solid #ccc;
+    /*background:linear-gradient(rgb(134, 178, 226) rgb(165, 136, 136));*/
+    display:block;
+    box-shadow:5px 5px black;
+    /*height:95%;*/
+    min-height:90%
+}
+.deisatubalign{
+    width:100px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    box-shadow: 5px 5px black;
+    margin-right:50px;
+    font-size:22px;
+    font-weight:bold;
+    font-family:Cambria;
+    cursor:pointer;
+}
+.deisatutalign{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:22px;
+    font-family:Cambria;
+    height:40px;
+    width:322px;
+    /*margin-right:400px;*/
+}
+.deisatutalign11{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:22px;
+    font-family:Cambria;
+    height:40px;
+    width:453px;
+    /*margin-left:330px;*/
+}
+.deisatutalign1{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:22px;
+    font-family:Cambria;
+    width:443px;
+    margin-left:260px;
+}
+
+.deisatulblmain{
+    font-size:32px;
+    margin-left:20px;
+}
+.deisatulbl1{
+    margin-left:30px;
+    margin-right:132px;
+}
+.deisatulbl111{
+    margin-left:50px;
+    margin-right:130px;
+}
+.deisatulbl14{
+    margin-left:50px;
+    margin-right:93px;
+}
+.deisatulbl2{
+    margin-left:30px;
+    margin-right:152px;
+}
+.deisatulbl3{
+    margin-left:50px;
+    margin-right:53px;
+}
+.deisatulbl4{
+    font-family:Cambria;
+    font-size:29px;
+    margin-left:25px;
+    margin-right:25px;
+}
+.deisatulbl13{
+    margin-left:50px;
+    margin-right:40px;
+}
+.deisatulbl131{
+    margin-left:30px;
+    margin-right:53px;
+}
+.deisatulbl12{
+    margin-left:50px;
+    margin-right:145px;
+}
+.deisatutlbl1{
+    margin-left:30px;
+    margin-right:110px;
+}
+.deisatuclbl1{
+    font-family:Cambria;
+    font-size:22px;
+    margin-left:5px;
+    margin-right:25px;
+}
+.deisatulbl11{
+    margin-left:30px;
+    margin-right:90px;
+}
+.deisatulbl5{
+    margin-left:30px;
+    margin-right:145px;
+}
+.deisatulbl6{
+    margin-left:30px;
+    margin-right:2px;
+}
+.deisatulbl7{
+    margin-left:30px;
+    margin-right:160px;
+}
+.deisatulbl8{
+    margin-left:40px;
+    margin-right:100px;
+}
+.deisatulbl18{
+    margin-left:30px;
+    margin-right:50px;
+}
+.deisatulble{
+    margin-left:30px;
+    margin-right:105px;
+}
+.deisatudiv1{
+    background-color:rgba(250,176,105,0.3);
+    /*background-color:#fab069;*/
+    /*background-color:#df91b1;*/
+    /*background-color:   #fab069;*/
+    border: 2px solid #ccc;
+    justify-content:center;
+    width:94%;
+    margin-left:40px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    /*height:28%;*/
+    min-height:18%;
+    max-height:30%;
+    padding-top:15px;
+}
+.deisatudiv2{
+    background-color:rgba(168,187,241,0.4);
+    /*background-color:#a8bbf1;*/
+    /*background-color:#a5c793;*/
+    /*background-color:#9cd8c8;*/
+    /*background-color:#df91b1;*/
+    justify-content:center;
+    width:94%;
+    margin-left:40px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    border-left:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    border-right:2px solid #ccc;
+    /*height:35%;*/
+    min-height:35%;
+    max-height:63%;
+    padding-top:15px;
+}
+.deisatudiv3{
+    background-color:rgba(156,216,200,0.3);
+    /*background-color:#9cd8c8;*/
+    /*background-color:#a8bbf1;*/
+    /*#8daedb;*/
+    /*#7ecaf4;*/
+    /*#9baad7;*/
+    /*:#e4b9f3;*/
+    /*#a3d7eb;*//*:#98e1ef;*/
+    justify-content:center;
+    width:94%;
+    margin-left:40px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    border-left:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    border-right:2px solid #ccc;
+    /*height:30%;*/
+    min-height:20%;
+    max-height:32%;
+    padding-top:15px;
+
+}
+#deisatuFooter{
+    /*margin-top:40.8%;*/
+    margin-top:97%;
+    color:antiquewhite;
+    height:46px;
+    width:100%;
+    vertical-align:bottom;
+    background-repeat:repeat-x;
+    background:#999;
+}
+#deisatufooterleft{
+    padding-left:20px;
+    padding-top:10px;
+    float:left;
+}
+.deisatusession {
+    float: right;
+    color: black;
+    font-size: 35px;
+    font-family: Calibri;
+    padding-right: 105px;
+}
+/*EmailSetting.aspx es*/
+#esbody{
+    width:100%;
+    min-width:600px;
+    background:#f8f8f8
+}
+#esinfo{
+    width:52%;
+    margin-left:25%;
+    background:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:25px;
+    box-shadow:10px 10px black;
+    color:ghostwhite;
+}
+#esmailbody
+{
+    background:#f8f8f8;
+    color:black;
+    /*padding:55px;*/
+    margin-left:24%;
+    display:block;
+    font-family:'Comic Sans MS';
+    width:680px;
+}
+.esinfom{
+    margin-left:5px;
+}
+.estitle{
+    padding:15px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.estxt
+{
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    font-family:'Franklin Gothic Medium';
+    font-size:18px;
+}
+.esauto-style1 {
+    color: #DD5145;
+}
+.esbtn{
+    font-family:'Franklin Gothic Medium';
+    font-size:20px;
+    margin-left:15%;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+    margin:45px;
+    margin-left:120px;
+}
+.eslbl1{
+    margin-left:30px;
+    margin-right:10px;
+}
+.eslbl2{
+    margin-left:30px;
+    margin-right:90px;
+}
+.eslbl3{
+    margin-left:30px;
+    margin-right:80px;
+}
+.eslbl4{
+    margin-left:30px;
+    margin-right:125px;
+}
+.eslbl5{
+    margin-left:30px;
+    margin-right:90px;
+}
+.eslbl6{
+    margin-left:30px;
+    margin-right:100px;
+}
+.essession {
+    float: right;
+    color: #2c3e50;
+    font-size: 35px;
+    font-family: Calibri;
+}
+/*EquipmentListGrid.aspx eqlg*/
+.eqlghead{
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.eqlginfo{
+    background:#2c3e50;
+    padding: 10px;
+    width: 75%;
+    height:60%;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.eqlgbutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    /*margin-right:100px;*/
+    margin-right:50px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.eqlgbutton:hover,
+.eqlgbutton:active,
+.eqlgbutton:focus{
+    color:rgb(12, 97, 33);
+}
+.eqlgmodalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    z-index: 10000;
+}
+.eqlgtxt
+{
+    width:30%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    border-bottom-left-radius:2px;border-bottom-right-radius:2px;border-top-left-radius:2px; border-top-right-radius:2px;
+}
+.eqlgbutton2
+{
+    float:right;
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    /*margin-right:100px;*/
+    margin-right:50px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.eqlgddl
+{
+    width:15%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    border-bottom-left-radius:2px;border-bottom-right-radius:2px;border-top-left-radius:2px; border-top-right-radius:2px;
+}
+.eqlgddls
+{
+    width:30%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    border-bottom-left-radius:2px;border-bottom-right-radius:2px;border-top-left-radius:2px; border-top-right-radius:2px;
+}
+/*EquipmentListMaster.aspx eqlm*/
+.eqlmhead{
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.eqlminfo{
+    background:#2c3e50;
+    padding: 10px;
+    width: 800px;
+    height:280px;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.eqlmbutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:100px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.eqlmbutton:hover,
+.eqlmbutton:active,
+.eqlmbutton:focus{
+    color:rgb(12, 97, 33);
+}
+.eqlminfot{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+}
+.eqlmsession{
+    float:right;
+    color:ghostwhite;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:105px;
+}
+.eqlmlbl1{
+    margin-left:40px;
+    margin-right:40px;
+}
+.eqlmlbl2{
+    margin-left:40px;
+    margin-right:120px;
+}
+/*EquipmentListMasterUpdate.aspx eqlmu*/
+.eqlmuhead{
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.eqlmuinfo{
+    background:#2c3e50;
+    padding: 10px;
+    width: 800px;
+    height:240px;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.eqlmuinfoc{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+    margin-left:260px;
+}
+.eqlmubutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:170px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.eqlmubutton:hover,
+.eqlmubutton:active,
+.eqlmubutton:focus{
+    color:rgb(12, 97, 33);
+}
+.eqlmuinfot{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+}
+.eqlmusession{
+    float:right;
+    color:ghostwhite;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:105px;
+}
+.eqlmulbl1{
+    margin-right:40px;
+    margin-left:40px;
+}
+/*ForgetPassword.aspx fp*/
+.fpinfo{
+    margin-left:720px;
+    width:350px;
+    background: #2c3e50;
+    /*rgb(30, 163, 98);*/
+    /*color:#2c3e50;*/
+    height:320px;
+    outline:double;
+    box-shadow:10px 10px black;
+}
+.fpuinfo{
+    font-family:sans-serif;
+    font-size:18px;
+    width:287px;
+}
+.fptext
+{
+    visibility:hidden;
+}
+.fpbutton{
+    font-family:'Lucida Sans Unicode';
+    font-size:20px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow:10px 10px black;
+    width:105px;
+    cursor:pointer;
+}
+.fpBack
+{
+    color:ghostwhite;
+}
+.fpBack:hover
+{
+    color:black;
+
+}
+/*LocationGrid.aspx lg*/
+.lghead{
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.lginfo{
+    background:#2c3e50;
+    padding: 10px;
+    width: 75%;
+    height:60%;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.lgbutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:3%;
+    /*margin-right:100px;*/
+    /*margin-right:50px;*/
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.lgbutton:hover,
+.lgbutton:active,
+.lgbutton:focus{
+    color:rgb(12, 97, 33);
+}
+.lglblmain{
+    margin-left:2%;
+    margin-right:2%;
+}
+.lgtxt
+{
+
+    width:30%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    border-bottom-left-radius:2px;border-bottom-right-radius:2px;border-top-left-radius:2px; border-top-right-radius:2px;
+}
+.lginfop{
+    font-family:'Franklin Gothic';
+    color:ghostwhite;
+    font-size:25px;
+    width:700px;
+    height:330px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#2c3e50;
+    box-shadow: 10px 10px black;
+}
+.lglbl1{
+    margin-right:80px;
+    margin-left:90px;
+}
+.lglbl2{
+    margin-right:50px;
+    margin-left:90px;
+}
+.lglbl3{
+    margin-right:100px;
+    margin-left:90px;
+}
+.infot{
+    width:259px;
+    height:30px;
+    font-size:25px;
+}
+.lgmodalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    z-index: 10000;
+}
+/*LocationMaster.aspx lm*/
+#lmHead {
+    margin-bottom:80px;
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.lminfo{
+    font-family:'Franklin Gothic';
+    color:ghostwhite;
+    font-size:25px;
+    width:700px;
+    height:330px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#2c3e50;
+    box-shadow: 10px 10px black;
+}
+.lminfot{
+    width:259px;
+    height:30px;
+    font-size:25px;
+}
+.lmbutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:80px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.lmbutton:hover,
+.lmbutton:active,
+.lmbutton:focus{
+    color:rgb(12, 97, 33);
+}
+.lmlbl1{
+    margin-right:80px;
+    margin-left:90px;
+}
+.lmlbl2{
+    margin-right:50px;
+    margin-left:90px;
+}
+.lmlbl3{
+    margin-right:100px;
+    margin-left:90px;
+}
+.lmsession{
+    float:right;
+    color:#2c3e50;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:5%;
+}
+/*locationMasterUpdate.aspx lmu*/
+#lmuHead {
+    margin-bottom:90px;
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.lmuinfo{
+    font-family:'Franklin Gothic';
+    color:ghostwhite;
+    font-size:25px;
+    width:700px;
+    height:450px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#2c3e50;
+    box-shadow: 10px 10px black;
+}
+.lmuinfot{
+    width:259px;
+    height:30px;
+    font-size:25px;
+}
+.lmubutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:150px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.lmubutton:hover,
+.lmubutton:active,
+.lmubutton:focus{
+    color:rgb(12, 97, 33);
+}
+.lmulbl1{
+    margin-left:70px;
+    margin-right:140px;
+}
+.lmulbl2{
+    margin-left:70px;
+    margin-right:40px;
+}
+.lmulbl3{
+    margin-right:108px;
+    margin-left:70px;
+}
+.lmulbl4{
+    margin-left:70px;
+    margin-right:159px;
+}
+.lmuinfoc{
+    margin-left:35%;
+}
+.lmusession{
+    float:right;
+    color:#2c3e50;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:5%;
+}
+/*Main.aspx m*/
+.msmsg{
+    box-sizing:border-box;
+    float:left;
+    font-size:16px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#333;
+    display:block;
+    border-color:#e7e7e7;
+    border:1px;
+}
+
+
+.msmsg2{
+    font-size:19px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#333;
+    display:block;
+    float:right;
+
+    margin:auto;
+    padding-right:10px;
+
+}
+.mpannels{
+    /*display:block;
+            border-color:#e7e7e7;
+            border:1px;
+            background-color:#007acc;*/
+}
+.li{
+    display:list-item;
+    text-align:match-parent;
+}
+.a{
+    cursor:auto;
+}
+.mbtn{
+    background-color:#ee8617;
+    font-family:Cambria;
+    font-size:20px;
+    color:ghostwhite;
+    border:5px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    padding-left:16px;
+    /*margin-top:2px;*/
+    /*margin-left:36px;*/
+    /*margin-left:10px;*/
+    box-shadow:5px 5px black;
+    font-style:normal;
+}
+.mbtn:hover{
+    background-color:#d77610;
+    color:ghostwhite;
+}
+.mbtn:active,
+.mbtn:focus{
+    color:ghostwhite;
+    background-color:#d77610;
+}
+
+.mbtn11{
+    background-color:#5b9cc7;
+    font-family:Cambria;
+    font-size:20px;
+    color:ghostwhite;
+    border:5px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    padding-left:16px;
+    /*margin-top:2px;*/
+    margin-left:35px;
+    box-shadow:5px 5px black;
+
+}
+#mbtbox{
+    height:76px;
+    width:100%;
+    background:linear-gradient(#686868,#f0f0f0);
+    border:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    font-family:Calibri;
+    font-size:38px;
+    font-style:oblique;
+
+}
+#mReqdetails{
+    font-family:Cambria;
+    font-size:22px;
+    /*float:left;*/
+    /*font-weight:20px;*/
+    margin:40px auto;
+    width:68%;
+    background-color:#eee;
+    /*background-color:rgba(247, 236, 7, 0.1);*/
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-left:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    border-right:2px solid #ccc;
+    /*background:linear-gradient(rgb(134, 178, 226) rgb(165, 136, 136));*/
+    display:block;
+    box-shadow:5px 5px black;
+    height:1020px;
+    justify-content:center;
+}
+#mReqdetails1{
+    font-family:Cambria;
+    font-size:16px;
+    float:left;
+    margin-left:20px;
+    width:95%;
+    background-color:transparent;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-left:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    border-right:2px solid #ccc;
+    /*background:linear-gradient(rgb(134, 178, 226) rgb(165, 136, 136));*/
+    display:block;
+    box-shadow:5px 5px black;
+    height:910px;
+}
+.mreqalign11{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:22px;
+    font-family:Cambria;
+    margin-right:20px;
+}
+.mreqalign{
+    /*margin-left:60px;*/
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:22px;
+    font-family:Cambria;
+}
+.mreqalign1{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    margin-left:250px;
+}
+.mreqalignt {
+    margin-left:290px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+}
+.mreqaligntt{
+    margin-left:275px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+}
+.mreqbtns{
+    margin-left:400px;
+    /*float:right;*/
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    margin-right:20px;
+    box-shadow:5px 5px black;
+    width:89px;
+    font-weight:bold;
+}
+.mreqbtns:hover{
+    width:150px;
+    height:50px;
+    background-color:#ee8617;
+    color:ghostwhite;
+    font-size:22px;
+    font-family:Cambria;
+}
+.mreqbtns:active,
+.mreqbtns:focus{
+    color:rgb(12, 97, 33);
+}
+.mreqbtn
+{
+    /*float:right;*/
+    align-items:center;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    margin-right:20px;
+    box-shadow:5px 5px black;
+    width:89px;
+    font-size:22px;
+    font-family:Cambria;
+    font-weight:bold;
+}
+.mlblserch{
+    margin-left:20px;
+    margin-right:10px;
+    font-size:22px;
+    font-family:Cambria;
+}
+#mFooter{
+    margin-top:55%;
+    color:antiquewhite;
+    height:46px;
+    width:100%;
+    vertical-align:bottom;
+    background-repeat:repeat-x;
+    background:#999;
+    /*position:fixed;*/
+}
+#mfooterleft{
+    padding-left:20px;
+    padding-top:10px;
+    float:left;
+}
+.msession{
+    float:right;
+    color:black;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:105px;
+}
+#mtickethist{
+    font-family:Cambria;
+    font-size:16px;
+    float:left;
+    /*margin-left:245px;*/
+    min-height:60%;
+    width:100%;
+    background-color:transparent;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-left:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    border-right:2px solid #ccc;
+    /*background:linear-gradient(rgb(134,178,226) rgb(165,136,136));*/
+    display:block;
+    box-shadow:5px 5px black;
+    /*height:823px;*/
+}
+.grid{
+    /*margin-left:20px;*/
+}
+
+.mreqbtnhis
+{
+
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    margin-right:30px;
+    box-shadow:5px 5px black;
+    width:89px;
+    font-size:22px;
+}
+.mtxt{
+    margin-bottom:2px;
+}
+.mdiv1{
+    background-color:rgba(250,176,105,0.3);
+    /*background-color:#fab069;*//*#e39856;*//*#f9c676;*/
+    /*:#f48f47;*/
+    /*:#f9a08d;*/
+    border: 2px solid #ccc;
+    justify-content:center;
+    width:93%;
+    margin-left:40px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    height:16%;
+    padding-top:15px;
+}
+.mdiv2{
+    background-color:rgba(156,216,200,0.3);
+    /*background-color:#9cd8c8;*/
+    /*#a5f5dc;*/
+    /*#90dcb7;*/
+    justify-content:center;
+    width:93%;
+    margin-left:40px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    border-left:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    border-right:2px solid #ccc;
+    height:17%;
+    padding-top:15px;
+}
+.mdiv3{
+    background-color:rgba(168,187,241,0.4);
+    /*background-color:#a8bbf1;*/
+    /*#8daedb;*/
+    /*#7ecaf4;*/
+    /*#9baad7;*/
+    /*:#e4b9f3;*/
+    /*#a3d7eb;*//*:#98e1ef;*/
+    justify-content:center;
+    width:93%;
+    margin-left:40px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    border-left:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    border-right:2px solid #ccc;
+    height:40%;
+    padding-top:15px;
+}
+.mCimg{
+    float:right;
+    margin-right:3%;
+    margin-top:10px;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    height:75%;
+
+}
+.mlbl1{
+    font-weight:bold;
+    margin-left:25px;
+    margin-right:15px;
+}
+.mlbl2{
+    font-weight:bold;
+    margin-left:25px;
+    margin-right:135px;
+}
+.mlbl21{
+    font-weight:bold;
+    margin-left:150px;
+    margin-right:15px;
+}
+.mlbl4{
+    font-weight:bold;
+    margin-left:25px;
+    margin-right:110px;
+}
+.mlbl3{
+    font-weight:bold;
+    margin-left:25px;
+    margin-right:145px;
+}
+.mlbl31{
+    font-weight:bold;
+    margin-left:25px;
+    margin-right:65px;
+}
+.mlbl311{
+    font-weight:bold;
+    margin-left:95px;
+    margin-right:15px;
+}
+.mlblmain{
+    /*margin-right:850px;*/
+}
+.mlblatt{
+    font-weight:bold;
+    margin-left:65px;
+}
+.mmodalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    z-index: 10000;
+}
+/*MasterForgetPassword.aspx mfp*/
+.mfpinfo{
+    margin-left:720px;
+    width:350px;
+    background: #2c3e50;
+    /*rgb(30, 163, 98);*/
+    /*color:#2c3e50;*/
+    height:320px;
+    outline:double;
+    box-shadow:10px 10px black;
+}
+.mfpuinfo{
+    font-family:sans-serif;
+    font-size:18px;
+    width:287px;
+}
+.mfptext
+{
+    visibility:hidden;
+}
+.mfpbutton{
+    font-family:'Lucida Sans Unicode';
+    font-size:20px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow:10px 10px black;
+    width:105px;
+    cursor:pointer;
+}
+.mfpBack
+{
+    color:ghostwhite;
+}
+.mfpBack:hover
+{
+    color:black;
+
+}
+/*Masters.aspx master*/
+.masterInfo{
+    padding-left:250px;
+}
+.masterMasterMenu{
+
+    padding:50px;
+    padding-top:60px;
+
+}
+
+.masterInfomenu{
+    padding:10px;
+    background-color:#000000;
+    width:180px;
+
+}
+.masterInfoLabel{
+    padding:10px;
+
+}
+#wrapper
+{
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#wrapper.toggled
+{
+    padding-left: 250px;
+}
+#sidebar-wrapper
+{
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #ffffff;/* 000000*/
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#wrapper.toggled #sidebar-wrapper
+{
+    width: 250px;
+}
+.sidebar-nav
+{
+    position: absolute;
+    top: 0;
+    width: 200px;/*250*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li
+{
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a
+{
+    display: block;
+    text-decoration: none;
+    color: #000000;/* ffffff*/
+    /* background-color:#999999;*/
+}
+
+.sidebar-nav li a:hover
+/*<a href="Masters.aspx.cs">Masters.aspx.cs</a>*/
+                                                                  {
+                                                                      text-decoration: none;
+                                                                      color: #ffffff;/*ffff80*/
+                                                                      font-weight:bold;
+                                                                      /*background: rgb(255,255,255,0.2);*/
+                                                                      background:#808080;
+                                                                      width: 250px;
+                                                                  }
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus
+{
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand
+{
+    height: 65px;
+    font-size: 18px;
+    font-family:Arial;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a
+{
+    color: #191919;/*#999999*/
+}
+
+.sidebar-nav > .sidebar-brand a:hover
+{
+    color: #999999;/*#fff*/
+    background: none;
+}
+.mastersession{
+    float:right;
+    color:ghostwhite;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:105px;
+}
+
+@media (min-width:300px) /*768*/
+{
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 300px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+
+
+    li {
+        float: left;
+    }
+
+    li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+        width:220px;
+    }
+
+
+    li a:hover, .dropdown:hover .dropbtn {
+        font-size:20px;
+        background-color: #ee8617;
+        width:350px;
+        color:ghostwhite;
+        font-weight:bold;
+    }
+
+    li.dropdown {
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        margin-left:15%;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 220px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+
+    }
+
+    .dropdown-content a:hover
+    {
+        background-color: #c0c0c0;
+        color:ghostwhite;
+        font-weight:bold;
+        font-size:20px;
+    }
+}
+.show {display:block;}
+.Cimg{
+    float:right;
+    margin-right:3%;
+    margin-top:1px;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    height:45px;
+
+}
+/*NewAssignTicket.aspx nat*/
+.natcomp{
+    float:right;
+    margin-right:2%;
+}
+#nattdhead{
+    font-family:Cambria;
+    font-size:16px;
+    float:left;
+    margin-left:245px;
+    width:1350px;
+    background-color:transparent;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-left:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    border-right:2px solid #ccc;
+    /*background:linear-gradient(rgb(134, 178, 226) rgb(165, 136, 136));*/
+    display:block;
+    box-shadow:5px 5px black;
+    height:1050px;
+}
+
+.natdetalign{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:30px;
+    width:322px;
+    position:center;
+    /*padding-left:20px;*/
+    margin-left:10px;
+
+    /*margin-right:25%;*/
+}
+.natdetaligndes{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:30px;
+    width:322px;
+    margin-left:280px;
+}
+.natdetbtn{
+    width:100px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    box-shadow: 5px 5px black;
+    margin-right:30px;
+    font-size:28px;
+}
+#natFooter{
+    /*margin-top:40.8%;*/
+    margin-top:62.3%;
+    color:antiquewhite;
+    height:46px;
+    width:100%;
+    vertical-align:bottom;
+    background-repeat:repeat-x;
+    background:#999;
+    align-items:baseline;
+}
+#natfooterleft{
+    padding-left:20px;
+    padding-top:10px;
+    float:left;
+
+}
+.natdetlab{
+    margin-left:25px;
+    margin-right:20px;
+    text-align:left;
+    text-size-adjust:10%;
+}
+.natdetlab1{
+    margin-left:20px;
+}
+/*ProblemListGrid.aspx plg*/
+.plghead{
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.plginfo{
+    background:#2c3e50;
+    padding: 10px;
+    width: 75%;
+    height:60%;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.plgbutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    /*margin-right:100px;*/
+    margin-right:50px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.plgbutton:hover,
+.plgbutton:active,
+.plgbutton:focus{
+    color:rgb(12, 97, 33);
+}
+.plgmodalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    z-index: 10000;
+}
+.plgtxt
+{
+    /*float:right;
+            margin-right:50px;*/
+    margin-left:30px;
+    width:30%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    border-bottom-left-radius:2px;border-bottom-right-radius:2px;border-top-left-radius:2px; border-top-right-radius:2px;
+}
+.plgbutton2
+{
+    float:right;
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    /*margin-right:100px;*/
+    margin-right:50px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.plgddl
+{
+    width:15%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    border-bottom-left-radius:2px;border-bottom-right-radius:2px;border-top-left-radius:2px; border-top-right-radius:2px;
+}
+.plgddls
+{
+    width:30%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    border-bottom-left-radius:2px;border-bottom-right-radius:2px;border-top-left-radius:2px; border-top-right-radius:2px;
+}
+/*ProblemListMaster.aspx plm*/
+.plmhead{
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.plminfo{
+    background:#2c3e50;
+    padding: 10px;
+    width: 800px;
+    height:280px;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.plmbutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:100px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.plmbutton:hover,
+.plmbutton:active,
+.plmbutton:focus{
+    color:rgb(12, 97, 33);
+}
+.plminfot{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+}
+.plmlbl1{
+    margin-left:50px;
+    margin-right:30px;
+}
+.plmlbl2{
+    margin-left:50px;
+    margin-right:70px;
+}
+.plmsession{
+    float:right;
+    color:ghostwhite;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:105px;
+}
+/*ProblemListMasterUpdate.aspx plmu*/
+.plmuhead{
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.plmuinfo{
+    background:#2c3e50;
+    padding: 10px;
+    width: 700px;
+    height:240px;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.plmuinfoc{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+    margin-left:220px;
+}
+.plmubutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:140px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.plmubutton:hover,
+.plmubutton:active,
+.plmubutton:focus{
+    color:rgb(12, 97, 33);
+}
+.plmuinfot{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+}
+.plmusession{
+    float:right;
+    color:ghostwhite;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:105px;
+}
+.plmulbl1{
+    margin-right:20px;
+    margin-left:30px;
+}
+/*SalutationMaster.aspx su*/
+#suback{
+
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+
+}
+.suinfo{
+    font-family:'Franklin Gothic';
+    color:ghostwhite;
+    font-size:25px;
+    width:700px;
+    height:250px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#2c3e50;
+    box-shadow: 10px 10px black;
+}
+.subutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:110px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    /*width:123px;*/
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.subutton:hover,
+.subutton:active,
+.button:focus{
+    color:rgb(12, 97, 33);
+}
+.sulbl1{
+    margin-left:110px;
+    margin-right:50px;
+}
+.sulbl2{
+    margin-left:110px;
+    margin-right:150px;
+}
+.susession{
+    float:right;
+    color:#2c3e50;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:5%;
+}
+/*SalutationMasterUpdate.aspx samu*/
+#samuback{
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.samuinfo{
+    font-family:'Franklin Gothic';
+    color:ghostwhite;
+    font-size:25px;
+    width:700px;
+    height:370px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#2c3e50;
+    box-shadow: 10px 10px black;
+}
+.samuinfoc{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+    margin-left:250px;
+}
+.samubutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:150px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.samubutton:hover,
+.samubutton:active,
+.samubutton:focus{
+    color:rgb(12, 97, 33);
+}
+.samulbl1{
+    margin-left:80px;
+    margin-right:85px;
+}
+.samulbl2{
+    margin-left:80px;
+    margin-right:55px;
+}
+.lbl3{
+    margin-left:80px;
+    margin-right:190px;
+}
+.samusession{
+    float:right;
+    color:#2c3e50;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:5%;
+}
+/*ServiceListMaster.aspx slm*/
+#slmHead {
+    padding:15px;
+    text-align:center;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.slminfo{
+    font-family:'Franklin Gothic';
+    color:ghostwhite;
+    font-size:25px;
+    width:950px;
+    height:520px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#2c3e50;
+    box-shadow: 10px 10px black;
+}
+.slminfot{
+    font-size:25px;
+    margin-left: 0px;
+
+}
+.slmbutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:80px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.slmbutton:hover,
+.slmbutton:active,
+.slmbutton:focus{
+    color:rgb(12, 97, 33);
+}
+.slmchk{
+    margin-left:44%;
+}
+.slmalign{
+    margin-bottom:2%;
+
+}
+.slmsession{
+    float:right;
+    color:#2c3e50;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:105px;
+}
+/*ServiceMasterUpdate.aspx sermu*/
+#sermuHead {
+    padding:15px;
+    text-align:center;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.sermuinfo{
+    font-family:'Franklin Gothic';
+    color:ghostwhite;
+    font-size:25px;
+    width:950px;
+    height:650px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#2c3e50;
+    box-shadow: 10px 10px black;
+}
+.sermuinfot{
+    font-size:25px;
+    margin-left: 0px;
+
+}
+.sermuinfod{
+    width:426px;
+    height:30px;
+    font-size:25px;
+
+}
+.sermubutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:80px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.sermubutton:hover,
+.sermubutton:active,
+.sermubutton:focus{
+    color:rgb(12, 97, 33);
+}
+.sermuchk{
+    margin-left:44%;
+}
+.sermualign{
+    margin-bottom:2%;
+
+}
+.sermusession {
+    float: right;
+    color: #2c3e50;
+    font-size: 35px;
+    font-family: Calibri;
+    padding-right: 105px;
+}
+/*SubloactionGrid.aspx sulg*/
+
+.sulghead{
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.sulginfo{
+    background:#2c3e50;
+    padding: 10px;
+    width: 75%;
+    height:60%;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.sulgbutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:3%;
+    /*margin-right:100px;*/
+    /*margin-right:50px;*/
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.sulgbutton:hover,
+.sulgbutton:active,
+.sulgbutton:focus{
+    color:rgb(12, 97, 33);
+}
+.sulglblmain{
+    margin-left:2%;
+    margin-right:2%;
+}
+.sulgtxt
+{
+
+    width:30%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    border-bottom-left-radius:2px;border-bottom-right-radius:2px;border-top-left-radius:2px; border-top-right-radius:2px;
+}
+.sulginfop{
+    background:#2c3e50;
+    padding: 10px;
+    width: 800px;
+    height:290px;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Franklin Gothic';
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.sulginfot{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+}
+.sulglbl1{
+    margin-right:112px;
+    margin-left:90px;
+}
+.sulglbl2{
+    margin-left:90px;
+    margin-right:82px;
+}
+.sulglbl3{
+    margin-left:90px;
+    margin-right:230px;
+}
+.sulgbuttonp{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:100px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.sulgmodalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    z-index: 10000;
+}
+/*SublocationMaster.aspx sulm*/
+.sulmhead{
+    padding:15px;
+    margin-bottom:90px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.sulminfo{
+    background:#2c3e50;
+    padding: 10px;
+    width: 800px;
+    height:290px;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Franklin Gothic';
+    font-size:25px;
+    color:#ffffff;
+    align-items:center;
+}
+.sulminfoc{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+    margin-left:300px;
+}
+.sulmbutton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:100px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+}
+.sulmbutton:hover,
+.sulmbutton:active,
+.sulmbutton:focus{
+    color:rgb(12, 97, 33);
+}
+.sulminfot{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+}
+.sulmlbl1{
+    margin-right:112px;
+    margin-left:90px;
+}
+.sulmlbl2{
+    margin-left:90px;
+    margin-right:82px;
+}
+.sulmlbl3{
+    margin-left:90px;
+    margin-right:230px;
+}
+.sulmsession{
+    float:right;
+    color:#2c3e50;
+    font-size:35px;
+    font-family:Calibri;
+    /*padding-right:105px;*/
+}
+/*SublocationUpdate.aspx sulu*/
+
+.suluhead{
+    margin-bottom:90px;
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.suluinfo{
+    font-family:'Franklin Gothic';
+    color:ghostwhite;
+    font-size:25px;
+    width:700px;
+    height:350px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#2c3e50;
+    box-shadow: 10px 10px black;
+}
+.suluButton{
+    font-family:'Franklin Gothic';
+    font-size:20px;
+    margin-left:150px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow: 10px 10px black;
+    cursor:pointer;
+    width:123px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    color:white;
+
+}
+.suluButton:hover,
+.suluButton:active,
+.suluButton:focus{
+    color:rgb(12, 97, 33);
+}
+.suluinfot{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+}
+.suluinfoc{
+    font-family:'Franklin Gothic';
+    font-size:25px;
+    margin-left:250px;
+}
+.sulutxt{
+    width:259px;
+    height:30px;
+    margin-left:385px;
+    font-size:25px;
+}
+.sululbl1{
+    margin-left:45px;
+    margin-right:123px;
+}
+.sululbl2{
+    margin-left:45px;
+    margin-right:25px;
+}
+.sululbl3{
+    margin-left:45px;
+    margin-right:93px;
+}
+.sululbl4{
+    margin-left:45px;
+    margin-right:240px;
+}
+.sulusession{
+    float:right;
+    color:#2c3e50;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:5%
+}
+/*TicketAssignDtl.aspx tad*/
+#tadhead {
+    height: 76px;
+    width: 100%;
+    background: linear-gradient(#686868,#f0f0f0);
+    border: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family: Calibri;
+    font-size: 38px;
+    font-style: oblique;
+    float: left;
+    margin-left: 1px;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.tadcomp{
+    float:right;
+    margin-right:2%;
+}
+.tadtdbtnali{
+    width:150px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    height:30px;
+    font-size:22px;
+    font-family:Cambria;
+
+
+}
+
+.tadtdali{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:22px;
+    width:300px;
+    font-family:Cambria;
+}
+.tadsession{
+    float:right;
+    color:black;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:105px;
+}
+#tadFooter{
+    margin-top:40.8%;
+    color:antiquewhite;
+    height:46px;
+    width:100%;
+    vertical-align:bottom;
+    background-repeat:repeat-x;
+    background:#999;
+}
+#tadfooterleft{
+    padding-left:20px;
+    padding-top:10px;
+    float:left;
+}
+.tadimgb{
+    float: right;
+    margin-right: 3%;
+    margin-top: 10px;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    height: 75%;
+}
+.tadCimg{
+    float:right;
+    height:85%;
+    margin-right:1%;
+
+}
+/*TicketAssignUpdate.aspx tasu */
+#tasuhead{
+    height:70px;
+    width:100%;
+    background:linear-gradient(#686868,#f0f0f0);
+    border:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    font-family:Cambria;
+    font-size:26px;
+    font-style:oblique;
+    float:left;
+    margin-left:1px;
+    width:100%;
+}
+.tasucomp{
+    float:right;
+    margin-right:2%;
+}
+#tasutdhead{
+    font-family:Cambria;
+    font-size:16px;
+    float:left;
+    margin-left:10%;
+    /*margin-left:230px;*/
+    width:1430px;
+    background-color:#eee;
+    /*background-color:rgba(247, 236, 7, 0.1);*/
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-left:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    border-right:2px solid #ccc;
+    /*background:linear-gradient(rgb(134, 178, 226) rgb(165, 136, 136));*/
+    display:block;
+    /*display:inline-block;*/
+    box-shadow:5px 5px black;
+    min-height:90%
+}
+
+.tasudetalign{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:22px;
+    font-family:Cambria;
+    height:40px;
+    width:322px;
+    /*margin-right:400px;*/
+}
+.tasudetbtn{
+    width:100px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    box-shadow: 5px 5px black;
+    margin-right:30px;
+    font-size:22px;
+    font-family:Cambria;
+    cursor:pointer;
+    font-weight:bold;
+}
+.tasutalign11{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:22px;
+    font-family:Cambria;
+    margin-left:70px;
+    height:40px;
+}
+.tasutalign1{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:22px;
+    font-family:Cambria;
+    width:443px;
+    margin-left:275px;
+}
+.tasulblmain{
+    font-size:32px;
+    margin-left:20px;
+}
+.tasulbl1{
+    margin-left:30px;
+    margin-right:80px;
+}
+.tasulbl111{
+
+    margin-left:30px;
+    margin-right:110px;
+}
+.tasuclbl1{
+    margin-left:5px;
+    margin-right:25px;
+}
+.tasulbl2{
+    margin-left:30px;
+    margin-right:150px;
+}
+.tasulbl3{
+    margin-left:86px;
+    margin-right:25px;
+}
+.tasulbl4{
+    margin-left:86px;
+    margin-right:12px;
+}
+.tasulbl5{
+    /*margin-left:30px;
+            margin-right:2px;*/
+    margin-left:2%;
+    margin-right:0.2%;
+}
+.tasulble{
+    margin-left:30px;
+    margin-right:125px;
+}
+.tasulbl6{
+    margin-left:30px;
+    margin-right:180px;
+}
+.tasulbl7{
+    font-family:Cambria;
+    font-size:29px;
+    margin-left:25px;
+    margin-right:50px;
+}
+.tasulbl8{
+    margin-left:40px;
+    margin-right:80px;
+}
+.tasulbl11 {
+    margin-left: 30px;
+    margin-right: 90px;
+}
+.tasulbl91{
+    margin-left:85px;
+    margin-right:105px;
+}
+.tasulbl12{
+    margin-left:96px;
+    margin-right:114px;
+}
+.tasulbl13{
+    margin-left:30px;
+    margin-right:55px;
+}
+.tasulbl14{
+    margin-left:90px;
+    margin-right:55px;
+}
+.tasulbl18{
+    margin-left:30px;
+    margin-right:50px;
+}
+.tasulbl19{
+    margin-left:10px;
+    /*margin-right:55px;*/
+}
+#tasuFooter{
+    /*margin-top:40.8%;*/
+    margin-top:87%;
+    color:antiquewhite;
+    height:46px;
+    width:100%;
+    vertical-align:bottom;
+    background-repeat:repeat-x;
+    background:#999;
+}
+#tasufooterleft{
+    padding-left:20px;
+    padding-top:10px;
+    float:left;
+}
+.tasudiv1{
+    background-color:rgba(250,176,105,0.3);
+    /*background-color:#fab069;*/
+    /*background-color:#df91b1;*/
+    /*background-color:   #fab069;*/
+    border: 2px solid #ccc;
+    justify-content:center;
+    width:94%;
+    margin-left:40px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    /*height:30%;*/
+    min-height:18%;
+    max-height:30%;
+    padding-top:15px;
+}
+.tasudiv2{
+    background-color:rgba(168,187,241,0.4);
+    justify-content:center;
+    border: 2px solid #ccc;
+    width:94%;
+    margin-left:40px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    /*border-left:2px solid #ccc;
+            border-bottom:2px solid #ccc;
+            border-top:2px solid #ccc;
+            border-right:2px solid #ccc;*/
+    /*height:60%;*/
+    min-height:35%;
+    max-height:63%;
+    padding-top:15px;
+}
+.tasudiv3{
+    background-color:rgba(156,216,200,0.3);
+    /*background-color:#9cd8c8;*/
+    /*background-color:#a8bbf1;*/
+    /*#8daedb;*/
+    /*#7ecaf4;*/
+    /*#9baad7;*/
+    /*:#e4b9f3;*/
+    /*#a3d7eb;*//*:#98e1ef;*/
+    justify-content:center;
+    width:94%;
+    margin-left:40px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    border-left:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    border-right:2px solid #ccc;
+    /*height:32%;*/
+    min-height:20%;
+    max-height:32%;
+    padding-top:15px;
+
+}
+.tasusession {
+    float: right;
+    color: black;
+    font-size: 35px;
+    font-family: Calibri;
+    padding-right: 105px;
+}
+.tasustatus
+{
+    float:right;
+    font-size:32px;
+    margin-right:20px;
+}
+.tasubalign{
+    width:100px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    box-shadow: 5px 5px black;
+    margin-right:50px;
+    font-size:22px;
+    font-weight:bold;
+    font-family:Cambria;
+    cursor:pointer;
+}
+/*TicketDetails.aspx tckde*/
+.tckdetdbtn{
+    background-color:rgb(137, 166, 185);
+    font-family:Cambria;
+    text-align:center;
+    color:ghostwhite;
+    border-color:transparent;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:20px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-shadow:5px 5px black;
+    padding:10px;
+    margin-right:40px;
+}
+.tckdetdbtn:hover,
+.tckdetdbtn:active,
+.tckdetdbtn:focus{
+    background-color: rgb(225, 97, 97);
+}
+.tckdetdbtnd{
+    justify-content:center;
+}
+
+.tckdetdali{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:30px;
+    width:300px;
+}
+.tckdetdbtnali{
+    width:150px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    height:30px;
+    font-size:22px;
+    font-family:Cambria;
+
+}
+#tckdeFooter{
+    margin-top:25.5%;
+    color:antiquewhite;
+    height:46px;
+    width:100%;
+    vertical-align:bottom;
+    background-repeat:repeat-x;
+    background:#999;
+}
+#tckdefooterleft{
+    padding-left:20px;
+    padding-top:10px;
+    float:left;
+}
+/*TicketDetailView.aspx tckdv */
+
+#tckdvhead{
+    height:70px;
+    width:100%;
+    background:linear-gradient(#686868,#f0f0f0);
+    border:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    font-family:Cambria;
+    font-size:26px;
+    font-style:oblique;
+    float:left;
+    margin-left:1px;
+    width:100%;
+}
+#tckdvmsg{
+    font-size:19px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#333;
+    display:block;
+    float:right;
+    margin:auto;
+    padding-right:10px;
+}
+.tckdvcomp{
+    float:right;
+    margin-right:2%;
+}
+#tckdvtckdetails{
+    font-family:Cambria;
+    font-size:16px;
+    float:left;
+    margin-left:245px;
+    width:1450px;
+    background-color:#eee;/*rgba(247, 236, 7, 0.1);*/
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-left:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    border-right:2px solid #ccc;
+    /*background:linear-gradient(rgb(134, 178, 226) rgb(165, 136, 136));*/
+    display:block;
+    box-shadow:5px 5px black;
+    height:1225px;
+}
+.tckdvdetalign{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:30px;
+    width:322px;
+    /*margin-right:400px;*/
+}
+.tckdvdetalign1{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:30px;
+    width:322px;
+    margin-left:320px;
+}
+.tckdvcdetalign{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:30px;
+    width:322px;
+    margin-left:30px;
+}
+.tckdvdetalign2{
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    font-size:30px;
+    width:322px;
+}
+
+.tckdvdetbtn{
+    width:100px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    box-shadow: 5px 5px black;
+    margin-right:30px;
+    font-size:28px;
+    cursor:pointer;
+}
+#tckdvFooter{
+    margin-top:68%;
+    color:antiquewhite;
+    height:46px;
+    width:100%;
+    vertical-align:bottom;
+    background-repeat:repeat-x;
+    background:#999;
+}
+#tckdvfooterleft{
+    padding-left:20px;
+    padding-top:10px;
+    float:left;
+}
+.tckdvlblmain{
+    font-size:38px;
+    margin-left:20px;
+}
+.tckdvlbl1{
+    margin-left:30px;
+    margin-right:90px;
+}
+.tckdvlbl11{
+    margin-left:25px;
+    margin-right:40px;
+}
+.tckdvlbl12{
+    margin-left:30px;
+    margin-right:140px;
+}
+.tckdvlbl2{
+    margin-left:25px;
+    margin-right:100px;
+}
+.tckdvlbl3{
+    margin-left:33px;
+    margin-right:170px;
+}
+.tckdvlbl31{
+    margin-left:30px;
+    margin-right:170px;
+}
+.tckdvlbl4{
+    margin-left:40px;
+    margin-right:123px;
+}
+.tckdvlbl5{
+    margin-left:30px;
+    margin-right:10px;
+}
+.tckdvlbl6{
+    margin-left:35px;
+    margin-right:5px;
+}
+.tckdvlbl7{
+    margin-left:30px;
+    margin-right:145px;
+}
+.tckdvlbl71{
+    margin-left:30px;
+    margin-right:145px;
+}
+.tckdvlbl8{
+    margin-left:30px;
+    margin-right:15px;
+}
+.tckdvlbl81{
+    margin-left:30px;
+    margin-right:15px;
+}
+.tckdvlbl41{
+    margin-left:30px;
+    margin-right:15px;
+}
+.tckdvlbl9{
+    margin-left:30px;
+    margin-right:205px;
+}
+.lbl10{
+    margin-left:30px;
+    margin-right:100px;
+}
+.tckdvdiv1{
+    background-color:rgba(250,176,105,0.3);
+    /*background-color:#fab069;*/
+    /*background-color:#df91b1;*/
+    /*background-color:   #fab069;*/
+    border: 2px solid #ccc;
+    justify-content:center;
+    width:93%;
+    margin-left:40px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    height:23%;
+    padding-top:15px;
+}
+.tckdvdiv2{
+    background-color:rgba(168,187,241,0.4);
+    /*background-color:#a8bbf1;*/
+    /*background-color:#a5c793;*/
+    /*background-color:#9cd8c8;*/
+    /*background-color:#df91b1;*/
+    justify-content:center;
+    width:93%;
+    margin-left:40px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    border-left:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    border-right:2px solid #ccc;
+    height:60%;
+    padding-top:15px;
+}
+.tckdvsession {
+    float: right;
+    color: black;
+    font-size: 35px;
+    font-family: Calibri;
+    padding-right: 105px;
+}
+.tckdvstatus
+{
+    float:right;
+    font-size:38px;
+    margin-right:20px;
+}
+/*userddetailview.aspx udv*/
+.udvpanel{
+    background:#2c3e50;
+    padding: 10px;
+    width: 1550px;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:16px;
+    color:#ffffff;
+}
+.udvhead{
+    padding:15px;
+    text-align:center;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+    font-weight:bold;
+}
+.udvfind
+{
+    /*width:580px;*/
+    width:590px;
+    /*margin:150px;*/
+    padding:10px;
+    background-color:bisque;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    height:135px;
+    color:black;
+    /*font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-size:18px;
+}
+.udvdrp{
+    /*width:105px;*/
+    font-family:sans-serif;
+    font-size:18px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+}
+.udvtext{
+    font-family:sans-serif;
+    font-size:18px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+}
+.udvtext1{
+    font-family:sans-serif;
+    font-size:18px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    margin-left:37%;
+}
+.udvbutton
+{
+    font-family:sans-serif;
+    font-size:18px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    cursor:pointer;
+    color:white;
+    box-shadow:10px 10px black;
+    margin-left:2%;
+    margin-right:8%;
+}
+.udvbutton:hover
+{
+    color:rgb(12, 97, 33);
+
+}
+/*userEditDtl.aspx uedt*/
+.uedthead{
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.uedtinfo{
+    background:#2c3e50;
+    padding: 10px;
+    max-width: 850px;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:16px;
+    color:#ffffff;
+}
+.uedtinfot{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:18px;
+    border-bottom-left-radius :5px;
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    margin-left: 0px;
+}
+.uedtinfob{
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    /*background-color:#199f5e;*/
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    cursor:pointer;
+    color:white;
+    box-shadow:10px 10px black;
+    margin-left:20px;
+}
+.uedtinfob:hover,
+.uedtinfob:active,
+.uedtinfob:focus{
+    color:rgb(12, 97, 33);
+}
+.uedtpannel{
+    width:846px;
+    /*margin-top:15px;*/
+    padding-top:10px;
+    background-color:bisque;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    height:75px;
+}
+.uedtdeptcss{
+    visibility:hidden;
+}
+.uedtlbl1{
+    margin-left:10px;
+    margin-right:65px;
+}
+.uedtlbl11{
+    margin-left:10px;
+    margin-right:30px;
+}
+.uedtlbl12{
+    margin-left:20px;
+    margin-right:40px;
+}
+.uedtlbl13{
+    margin-left:20px;
+    margin-right:20px;
+}
+.uedtlbl2{
+    margin-left:10px;
+    margin-right:30px;
+}
+.uedtlbl5{
+    margin-right:35px;
+    margin-left:10px;
+}
+.uedtlbl6{
+    margin-right:45px;
+    margin-left:10px;
+}
+.uedtlbl3{
+    margin-left:10px;
+    margin-right:10px;
+}
+.uedtlbl4{
+    margin-left:10px;
+    margin-right:20px;
+}
+.uedtcb1{
+    margin-left:30px;
+}
+.uedtsession
+{
+    float:right;
+    color:#2c3e50;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:5%;
+}
+/*UserRegistrration.aspx urr*/
+#urrBACK {
+    /*width: 499px;*/
+    padding:15px;
+    height: 0px;
+    color:#2c3e50;
+    font-family:'Franklin Gothic';
+    font-size:45px;
+}
+.urrinfo1{
+    background:#2c3e50;
+    padding: 10px;
+    max-width: 850px;
+    margin: 40px auto ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:16px;
+    color:#ffffff;
+}
+.urrinfot{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:18px;
+    border-bottom-left-radius :5px;
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+
+}
+.urrinfob{
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    /*background-color:#199f5e;*/
+    background-color:rgb(104, 145, 162);
+    font-weight:bold;
+    cursor:pointer;
+    color:white;
+    box-shadow:10px 10px black;
+}
+.urrinfob:hover,
+.urrinfob:active,
+.urrinfob:focus{
+    color:rgb(12, 97, 33);
+}
+.urruri{
+    visibility:hidden;
+}
+.urrpannel{
+    width:846px;
+    /*margin-top:15px;*/
+    padding-top:10px;
+    background-color:bisque;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    height:75px;
+}
+.urrcb{
+    margin-left:10px;
+}
+.urrlbl1{
+    margin-left:10px;
+    margin-right:35px;
+}
+.urrlbl3,.urrlbl7,.urrlbl8{
+    margin-right:40px;
+    margin-left:8px;
+}
+.urrlbl9{
+    margin-right:45px;
+    margin-left:8px;
+}
+.urrlbl2{
+    margin-left:10px;
+    margin-right:15px;
+}
+.urrlbl21{
+    margin-left:10px;
+    margin-right:30px;
+}
+.urrlbl4{
+    margin-left:10px;
+    margin-right:5px;
+}
+.urrlbl5{
+    margin-left:10px;
+    margin-right:25px;
+}
+.urrlbl61{
+    margin-left:10px;
+    margin-right:13px;
+}
+.urrlbl6{
+    margin-left:20px;
+    margin-right:40px;
+}
+.urrlbl10{
+    margin-left:10px;
+    margin-right:30px;
+}
+.urrlbl11{
+    margin-right:38px;
+    margin-left:10px;
+}
+.urrsession{
+    float:right;
+    color:#2c3e50;
+    font-size:35px;
+    font-family:Calibri;
+    padding-right:5%;
+}
+/**/
+/**/
